@@ -60,10 +60,20 @@ body{
   margin-top: 5%;
 }
 
+#subscribe{
+  text-align: center;
+  background-color: rgb(212, 212, 212);
+  padding: 10px;
+}
+
+#subscribe input{
+  padding: 5px;
+  margin-right: 100px;
+}
+
 footer{
   text-align: center;
   color: white;
   background-color: black;
   padding: 5px;
-  margin-top: 20px;
 }
