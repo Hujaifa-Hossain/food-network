@@ -3,12 +3,20 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-.orange-color{
-  color: orange;
-}
-
 .container{
   display: flex;
+}
+
+#heading{
+  text-align: center;
+  font-weight: 900;
+  background-color: black;
+  padding: 5px;
+  border-bottom: 3px yellow solid;
+}
+
+.orange-color{
+  color: orange;
 }
 
 .width{
@@ -18,19 +26,21 @@ body{
 
 .link-button{
   text-decoration: none;
+  font-weight: 700;
   padding: 10px 30px;
   color: white;
   background-image: linear-gradient(yellow, tomato);
-  border-radius: 5px;
+  border-radius: 25px;
 }
 
 #middle-section{
   background-image: url(images/7.png);
+  background-repeat: no-repeat;
 }
 
 #center{
   text-align: center;
-  padding: 0 15%;
+  padding: 0 100px;
 }
 
 .shadow{
@@ -39,7 +49,6 @@ body{
   border: 20px solid white;
   box-shadow: 10px 10px 40px gray;
   margin: 40px;
-  border-image-slice: 1;
 }
 
 .shadow img{
@@ -48,7 +57,6 @@ body{
 
 .third-section{
   display: flex;
-  justify-content: center;
   margin-top: 5%;
 }
 
